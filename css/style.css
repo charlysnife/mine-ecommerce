@@ -1,0 +1,58 @@
+.sidebar {
+    padding-left: 0;
+}
+.sidebar ul {
+    background: #069;
+    padding-left: 0;
+    list-style: none;
+}
+
+.sidebar li a {
+    display: block;
+    color: #fff;
+    padding: .6em 1em;
+}
+
+.sidebar li a:hover {
+    background: #fff;
+    color: #069;
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.err {
+    color: #c33 !important;
+    display: none;
+}
+
+.loader {
+    background: rgba(0, 0, 0, .3);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+.loading {
+    background: #fff;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 480px;
+}
+
+.exist {
+    color: #c33 !important;
+    display: none;
+}
